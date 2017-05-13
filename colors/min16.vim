@@ -25,7 +25,7 @@ hi Cursor                       ctermfg=NONE ctermbg=NONE cterm=NONE         gui
 hi Directory                    ctermfg=12   ctermbg=NONE cterm=NONE         guifg=#8080FF guibg=NONE gui=NONE
 hi Visual                       ctermfg=NONE ctermbg=4    cterm=NONE         guifg=NONE guibg=#0000FF gui=NONE
 hi IncSearch                    ctermfg=NONE ctermbg=4    cterm=NONE         guifg=NONE guibg=#0000FF gui=NONE
-hi MatchParen                   ctermfg=1    ctermbg=NONE cterm=underline    guifg=NONE guibg=#ffffff gui=underline
+hi MatchParen                   ctermfg=1    ctermbg=NONE cterm=underline    guifg=#FF0000 guibg=NONE gui=underline
 hi CursorLine                   ctermfg=NONE ctermbg=4    cterm=NONE         guifg=NONE guibg=#0000FF gui=NONE
 
 hi CursorColumn                 ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
