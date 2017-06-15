@@ -30,7 +30,7 @@ hi CursorLine                   ctermfg=NONE ctermbg=4    cterm=NONE         gui
 
 hi CursorColumn                 ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 hi ColorColumn                  ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
-hi Folded                       ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
+hi Folded                       ctermfg=8    ctermbg=NONE cterm=NONE         guifg=#808080 guibg=NONE gui=NONE
 hi Search                       ctermfg=NONE ctermbg=NONE cterm=underline    guifg=NONE guibg=NONE gui=underline
 
 
@@ -47,7 +47,7 @@ hi WarningMsg                   ctermfg=NONE ctermbg=NONE cterm=NONE         gui
 hi Label                        ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 hi NonText                      ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 hi Underlined                   ctermfg=NONE ctermbg=NONE cterm=underline    guifg=NONE guibg=NONE gui=underline
-
+hi EndOfBuffer                  ctermfg=black ctermbg=NONE cterm=NONE        guifg=#000000 guibg=NONE gui=NONE
 
 " Keywords
 hi Normal                       ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
