@@ -1,5 +1,5 @@
 " Vim color file
-" A minimal colorscheme which uses 16 colours.
+" Converted from Textmate theme Monokai using Coloration v0.3.2 (http://github.com/sickill/coloration)
 
 set background=dark
 highlight clear
@@ -20,13 +20,13 @@ hi DiffText                     ctermfg=NONE ctermbg=NONE cterm=bold         gui
 
 
 " Textop
-hi Cursor                       ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=black guibg=#ffffff gui=NONE
+hi Cursor                       ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 
-hi Directory                    ctermfg=12   ctermbg=NONE cterm=NONE         guifg=#8080FF guibg=NONE gui=NONE
-hi Visual                       ctermfg=NONE ctermbg=4    cterm=NONE         guifg=NONE guibg=#0000FF gui=NONE
-hi IncSearch                    ctermfg=NONE ctermbg=4    cterm=NONE         guifg=NONE guibg=#0000FF gui=NONE
-hi MatchParen                   ctermfg=1    ctermbg=NONE cterm=underline    guifg=#FF0000 guibg=NONE gui=underline
-hi CursorLine                   ctermfg=NONE ctermbg=4    cterm=NONE         guifg=NONE guibg=#0000FF gui=NONE
+hi Directory                    ctermfg=12   ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
+hi Visual                       ctermfg=NONE ctermbg=4    cterm=NONE         guifg=NONE guibg=NONE gui=NONE
+hi IncSearch                    ctermfg=NONE ctermbg=4    cterm=NONE         guifg=NONE guibg=NONE gui=NONE
+hi MatchParen                   ctermfg=1    ctermbg=NONE cterm=underline    guifg=NONE guibg=NONE gui=underline
+hi CursorLine                   ctermfg=NONE ctermbg=4    cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 
 hi CursorColumn                 ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 hi ColorColumn                  ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
@@ -38,7 +38,7 @@ hi Search                       ctermfg=NONE ctermbg=NONE cterm=underline    gui
 hi StatusLine                   ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=#000000 guibg=NONE gui=bold
 hi StatusLineNC                 ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 hi LineNr                       ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
-hi VertSplit                    ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
+hi VertSplit                    ctermfg=8    ctermbg=NONE cterm=NONE         guifg=#808080 guibg=NONE gui=NONE
 hi Pmenu                        ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel                     ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 hi SignColumn                   ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
@@ -50,11 +50,11 @@ hi Underlined                   ctermfg=NONE ctermbg=NONE cterm=underline    gui
 hi EndOfBuffer                  ctermfg=black ctermbg=NONE cterm=NONE        guifg=#000000 guibg=NONE gui=NONE
 
 " Keywords
-hi Normal                       ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=#dcdcdc guibg=black gui=NONE
+hi Normal                       ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 
-hi PreProc                      ctermfg=12   ctermbg=NONE cterm=NONE         guifg=#8080FF guibg=NONE gui=NONE
-hi Comment                      ctermfg=2    ctermbg=NONE cterm=NONE         guifg=#60DB36 guibg=NONE gui=NONE
-hi Todo                         ctermfg=2    ctermbg=NONE cterm=inverse,bold guifg=#60DB36 guibg=NONE gui=inverse,bold
+hi PreProc                      ctermfg=12   ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
+hi Comment                      ctermfg=2    ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
+hi Todo                         ctermfg=2    ctermbg=NONE cterm=inverse,bold guifg=NONE guibg=NONE gui=inverse,bold
 
 hi Statement                    ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 hi Operator                     ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
