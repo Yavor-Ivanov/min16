@@ -1,5 +1,4 @@
 " Vim color file
-" Converted from Textmate theme Monokai using Coloration v0.3.2 (http://github.com/sickill/coloration)
 
 set background=dark
 highlight clear
@@ -30,7 +29,7 @@ hi CursorLine                   ctermfg=NONE ctermbg=4    cterm=NONE         gui
 
 hi CursorColumn                 ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 hi ColorColumn                  ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
-hi Folded                       ctermfg=8    ctermbg=NONE cterm=NONE         guifg=#808080 guibg=NONE gui=NONE
+hi Folded                       ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=#808080 guibg=NONE gui=NONE
 hi Search                       ctermfg=NONE ctermbg=NONE cterm=underline    guifg=NONE guibg=NONE gui=underline
 
 
@@ -48,6 +47,8 @@ hi Label                        ctermfg=NONE ctermbg=NONE cterm=NONE         gui
 hi NonText                      ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
 hi Underlined                   ctermfg=NONE ctermbg=NONE cterm=underline    guifg=NONE guibg=NONE gui=underline
 hi EndOfBuffer                  ctermfg=black ctermbg=NONE cterm=NONE        guifg=#000000 guibg=NONE gui=NONE
+hi TabLineFill                  ctermfg=NONE  ctermbg=NONE cterm=NONE        guifg=#000000 guibg=NONE gui=NONE
+hi TabLine                      ctermfg=NONE  ctermbg=NONE cterm=NONE        guifg=#000000 guibg=NONE gui=NONE
 
 " Keywords
 hi Normal                       ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE guibg=NONE gui=NONE
